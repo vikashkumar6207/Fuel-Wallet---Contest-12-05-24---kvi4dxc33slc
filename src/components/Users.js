@@ -2,7 +2,7 @@ import React from "react";
 
 function Users({ users, dispatch, setBalance, balance }) {
     function handleFuel() {
-        // dispatch({ type: "fuel", setBalance, balance });
+        dispatch({ type: "fuel", setBalance, balance });
     }
     return (
         <div>
