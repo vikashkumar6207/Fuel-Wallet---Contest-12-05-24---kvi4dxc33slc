@@ -6,7 +6,7 @@ const reducer = (state, action) => {
             return balance + 10;
         });
         return [...state, {name: action.name, id: uuidv4()}];
-    }else if(action.type === "fule"){
+    }else if(action.type === "fuel"){
         if(action.balance >= 50){
             action.setBalance((balance) => balance - 50);
         }
